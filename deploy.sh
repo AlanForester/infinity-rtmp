@@ -1,0 +1,1 @@
+rsync -avz --exclude='images' --exclude='music' --exclude='.git' --exclude='video' . root@5.129.196.82:/opt/infinity-rtmp

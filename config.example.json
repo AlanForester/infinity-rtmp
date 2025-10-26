@@ -1,0 +1,19 @@
+{
+    "rtmp": {
+        "url": "rtmp://ovsu.okcdn.ru/input/",
+        "key": ""
+    },
+    "video": {
+        "directory": "video",
+        "loopMode": true
+    },
+    "settings": {
+        "forceBitrate": 200000,
+        "forceKeyframe": true,
+        "keyframeSeconds": 2,
+        "reconnectOnNewFile": true,
+        "disableEarlyEnd": true,
+        "minPlayTime": 60,
+        "restoreState": true
+    }
+}

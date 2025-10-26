@@ -1,0 +1,128 @@
+music/*
+images/*
+video/*
+rtmp-streamer
+
+.DS_Store
+# Ignore all files in these directories except .gitkeep
+!music/.gitkeep
+!images/.gitkeep
+!video/.gitkeep
+
+# Ignore binary files and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignore logs
+*.log
+
+# Ignore configuration files with sensitive data
+config.json
+.env
+
+# Ignore temporary files
+tmp/
+temp/
+*.tmp
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.* 
+.cache
+.pytest_cache/
+.hypothesis/
+pytestdebug.log
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+*/env/
+*/venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VSCode
+.vscode/
+
+# Dependencies
+vendor/
+
+# System files
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
